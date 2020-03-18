@@ -9,13 +9,12 @@ export default ({ children }) => (
       <header>
          <Link to="/"><img src={LogoImg} alt="test" /></Link>
         <ul class="nav">
-          <Link to="/work/">Work</Link>
+          <Link to="/">Work</Link>
           <Link to="/about/">About</Link>       
         </ul>      
-      </header>
-      <div>
+      </header>   
     
-    </div>
+    
     {children}
   </div>
 )

@@ -1,13 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
+import Work01 from "../components/work-01"
 
 
 const WorkPage = () => (
 	<Layout>  
-		<main>
-			<h1>About the Author</h1>
-			<p>Welcome to my Gatsby site.</p>
-			</main>
+		<Work01></Work01>
 	</Layout>
 )
 
