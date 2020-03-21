@@ -6,10 +6,10 @@ import HeroImg03 from "../images/project-Group3.jpg"
 
 export default ({ children }, props) => (
 	<section>
-		<article >
+		<article>
 		  	<div>
-		  		<h3>Heading comes here</h3>
-		  		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+		  		<h2>Grow@for workers</h2>
+		  		<p>Lead UX and UI design</p>
 		  	</div>
 		  	
 		  	<Link to="/project-01/"><img src={HeroImg01} alt="test" />
@@ -18,8 +18,8 @@ export default ({ children }, props) => (
 		</article>
 		<article>
 		  	<div>
-		  		<h3>Heading comes here</h3>
-		  		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+		  		<h2>Grow@ for managers</h2>
+		  		<p>Lead UX and UI design</p>
 		  	</div>
 		  	
 		  	<Link to="/"><img src={HeroImg02} alt="test" /></Link>
@@ -27,8 +27,8 @@ export default ({ children }, props) => (
 		</article>
 		<article>
 		  	<div>
-		  		<h3>Heading comes here</h3>
-		  		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+		  		<h2>Tether IAQ</h2>
+		  		<p>Lead UI design</p>
 		  	</div>
 		  	
 		  	<Link to="/"><img src={HeroImg03} alt="test" /></Link>
