@@ -12,7 +12,7 @@ export default ({ children }, props) => (
 		  		<p>Lead UX and UI design</p>
 		  	</div>
 		  	
-		  	<Link to="/project-01/"><img src={HeroImg01} alt="test" />
+		  	<Link to="/grow-workers/"><img src={HeroImg01} alt="test" />
 		  	</Link>
 		    
 		</article>
@@ -22,7 +22,7 @@ export default ({ children }, props) => (
 		  		<p>Lead UX and UI design</p>
 		  	</div>
 		  	
-		  	<Link to="/"><img src={HeroImg02} alt="test" /></Link>
+		  	<Link to="/grow-manager/"><img src={HeroImg02} alt="test" /></Link>
 		    
 		</article>
 		<article>
@@ -31,7 +31,7 @@ export default ({ children }, props) => (
 		  		<p>Lead UI design</p>
 		  	</div>
 		  	
-		  	<Link to="/"><img src={HeroImg03} alt="test" /></Link>
+		  	<Link to="/tether/"><img src={HeroImg03} alt="test" /></Link>
 		    
 		</article>
 
