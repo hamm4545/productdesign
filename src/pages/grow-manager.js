@@ -50,7 +50,10 @@ const ProjectPage = () => (
 				</ol>
 				<h2>Approach</h2>
 				<p>As the business will be able to expand to other industries, I added the dropdown to choose other industries for hiring for the future on the search screen.</p>
-				<img src={SearchImg} alt="test" />
+				
+				<img src={SearchImg} class="bg-lightgrey" alt="test" />
+			
+				
 				<p>Fundamental search values sit on the landing screen so that enabling a manager to quickly find workers available to work at a specific start time or in a specified time window. The rest of the search fields are in the advanced search as a link. Once it's triggered, open as a full screen modal. It enables the users to set the significant criteria associated with each job type without any distractions.</p>
 				<p>There are steps to go through to hire the right candidate. The app should reflect the interactions between the manager and candidate app so that the manager can see the hiring status at a glance. Therefore, I have created small job boxes with different colours in a job card on my job screen as well as the progress bar on the bottom of the card. It summarises the current work progress for each job. Like the candidate app, icons help the app be more friendly and easy to inform the tasks and main features. </p>
 
@@ -65,7 +68,7 @@ const ProjectPage = () => (
 				<p>
 					I ensured two apps relevant and consistent look and feel with each other. But, the manager app should look more professional and reliable, so I chose blue for the primary theme colour to look more professional. Through using the same UI design approach like workers' app,  It allows saving significant time to develop the manager app.
 				</p>
-				<img src={PatternLibrary} alt="test" />
+				<img class="bg-lightgrey" src={PatternLibrary} alt="test" />
 			</main>
 		</div>
 		
@@ -88,11 +91,13 @@ const ProjectPage = () => (
 			</main>
 		</div>
 		
-		<footer class="content-fullwidth">
-			<main>
-				<a href="">Back to Top</a>
-				<Link to="/tether/">Next</Link>
-			</main>
+		<footer>
+			<div class="content">				
+				<div class="row">
+					<a href="">Back to Top</a>
+					<Link to="/tether/">Next <i class="right"></i></Link>
+				</div>							
+			</div>			
 		</footer>
 	</Layout>
 )

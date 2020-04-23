@@ -78,12 +78,13 @@ Moreover, the end-users are a wide range of age range, and most of them might no
 			</main>
 			
 		</div>
-		
-		<footer class="content-fullwidth">
-			<main>
-				<a href="">Back to Top</a>
-				<Link to="/grow-workers/">Next</Link>
-			</main>
+		<footer>
+			<div class="content">				
+				<div class="row">
+					<a href="">Back to Top</a>
+					<Link to="/grow-workers/">Next <i class="right"></i></Link>
+				</div>							
+			</div>			
 		</footer>
 	</Layout>
 )

@@ -122,15 +122,14 @@ const ProjectPage = () => (
 				</p>
 			</main>
 		</div>
-		
-		<footer class="content-fullwidth">
-			<div class="content">
-				<main>
+
+		<footer>
+			<div class="content">				
+				<div class="row">
 					<a href="">Back to Top</a>
-					<Link to="/grow-manager/">Next</Link>
-				</main>
-			</div>
-			
+					<Link to="/grow-manager/">Next <i class="right"></i></Link>
+				</div>							
+			</div>			
 		</footer>
 		
 	</Layout>
