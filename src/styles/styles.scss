@@ -54,6 +54,12 @@ img{
 	max-width: calc(960px - (2* #{$default-padding}));
 	width: 80%;
 
+	@media only screen and (max-width: 600px) {
+		&{
+			width: 90%;
+		}		
+	}
+
 	* > img{
 		vertical-align: middle;
 	}
@@ -132,6 +138,12 @@ header{
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;
 	padding: ($default-padding*4) ($default-padding*8) ($default-padding*8) 0;
+
+	@media only screen and (max-width: 600px) {
+		&{
+			padding: $default-padding 0;
+		}		
+	}
 }
 
 
@@ -141,9 +153,16 @@ article{
 	grid-column-gap: 16px;
 	padding: ($default-padding*2) 0;
 
+	@media only screen and (max-width: 600px) {
+		&{
+			grid-template-columns: auto;
+		}		
+	}
+
 
 	h2{
 		margin-top: 0;
+		margin-bottom: 1rem;
 	}
 
 	img{
