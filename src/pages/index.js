@@ -2,12 +2,10 @@ import React from "react"
 import Layout from "../components/layout"
 import Article from "../components/article"
 import "../styles/styles.scss"
-import TestImg from "../components/test-image"
 
 const Page = () => (
 
   <Layout> 
-  <TestImg></TestImg>
   	<div className="content">
   		<div className="site-title">
 		 	<h1>Hi! I am Heather, a product designer based in New Zealand.</h1>

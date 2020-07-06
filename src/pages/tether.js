@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
 
-import HeroImg01 from "../images/project03/hero.png"
+import HeroImg01 from "../components/img-a-hero01"
 import Colours from "../images/project03/colours.png"
 import Icons from "../images/project03/icons.jpg"
 
@@ -20,7 +20,7 @@ const ProjectPage = () => (
 		<div class="content-fullwidth bg-lightgrey">
 			<div class="content">
 				<div class="hero_img extra-padding-top">
-					<img src={HeroImg01} alt="test" />
+					<HeroImg01></HeroImg01>
 				</div>
 			</div>
 		</div>

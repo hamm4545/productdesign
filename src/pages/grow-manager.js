@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
 
-import HeroImg01 from "../images/project02/hero.png"
+import HeroImg from "../components/img-a-hero02"
 import SearchImg from "../images/project02/CM-Search-dropdown.jpg"
 import Workflow from "../images/project02/workflow.png"
 import PatternLibrary from "../images/project01/pattern-library.jpg"
@@ -21,7 +21,7 @@ const ProjectPage = () => (
 		<div class="content-fullwidth bg-darkgrey">
 			<div class="content">
 				<div class="hero_img extra-padding-top">
-					<img src={HeroImg01} alt="test" />
+					<HeroImg></HeroImg>
 				</div>
 			</div>
 		</div>
