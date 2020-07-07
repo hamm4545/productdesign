@@ -57,6 +57,9 @@ const ProjectPage = () => (
 				</p>
 
 				<h3>Sign up journey:</h3>
+				<p>
+					Each screen delivers one task so that users can only focus on one task at once without any distractions.
+				</p>
 			</main>	
 		</div>
 		
@@ -67,9 +70,7 @@ const ProjectPage = () => (
 		</div>
 		<div class="content">
 			<main>
-				<p>
-					Each screen delivers one task so that users can only focus on one task at once without any distractions.
-				</p>
+				
 				<h3>Availability:</h3>
 				<img class="bg-lightgrey" src={Availability} alt="test" />
 				<p>
