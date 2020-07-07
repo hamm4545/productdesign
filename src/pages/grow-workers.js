@@ -17,8 +17,8 @@ const ProjectPage = () => (
 		<div class="content">
 			<div class="text-hero text-center ">
 				<h1> Grow@ Mobile App for Worker</h1>
-				
-			</div>  
+
+			</div>
 		</div>
 		<div class="content-fullwidth bg-darkgrey">
 			<div class="content">
@@ -28,8 +28,8 @@ const ProjectPage = () => (
 				</div>
 			</div>
 		</div>
-		
-		<div class="content">	
+
+		<div class="content">
 			<main>
 				<h2>Introduction</h2>
 				<p>Grow@ wanted to provide a platform to match desires between cleaners and contract managers to find the job or right candidates in an efficient way.</p>
@@ -37,7 +37,7 @@ const ProjectPage = () => (
 					Commercial cleaning industry turnover is speedy, and many workers come and go as well. Moreover, it is a low margin business, and 80% of the costs of cleaning contractors are labour.  Therefore, anything that makes recruitment and utilisation of work more efficient should lead to significant savings.
 				</p>
 				<p>
-					Creating a well-designed app enables commercial cleaning workflow much more efficient and offers more job opportunities for cleaners, along with making the contract manager work faster and more productive. 
+					Creating a well-designed app enables commercial cleaning workflow much more efficient and offers more job opportunities for cleaners, along with making the contract manager work faster and more productive.
 				</p>
 
 				<h2>Challenges</h2>
@@ -53,24 +53,24 @@ const ProjectPage = () => (
 				</p>
 				<h2>Approach</h2>
 				<p>
-					MVP was only for the commercial cleaning industry. Through design workshops with the client, clarifying main user tasks and flows and make sure two apps to interact with each other seamlessly. 
+					MVP was only for the commercial cleaning industry. Through design workshops with the client, clarifying main user tasks and flows and make sure two apps to interact with each other seamlessly.
 				</p>
 
 				<h3>Sign up journey:</h3>
 				<p>
 					Each screen delivers one task so that users can only focus on one task at once without any distractions.
 				</p>
-			</main>	
+			</main>
 		</div>
-		
+
 		<div class="content-fullwidth bg-lightgrey">
 			<main>
 				<img src={Wireframe} alt="test" />
-			</main>			
+			</main>
 		</div>
 		<div class="content">
 			<main>
-				
+
 				<h3>Availability:</h3>
 				<img class="bg-lightgrey" src={Availability} alt="test" />
 				<p>
@@ -104,11 +104,11 @@ const ProjectPage = () => (
 				<img class="bg-lightgrey" src={PatternLibrary} alt="test" />
 			</main>
 		</div>
-		
+
 		<div class="content-fullwidth short-height">
 			<main>
 				<img src={Composition} alt="test" />
-			</main>			
+			</main>
 		</div>
 		<div class="content">
 			<main>
@@ -128,14 +128,14 @@ const ProjectPage = () => (
 		</div>
 
 		<footer>
-			<div class="content">				
+			<div class="content">
 				<div class="row">
-					<a href="">Back to Top</a>
+					<button className="c-btn back-to-top" onClick={() => window.scrollTo({top: 0,left: 0, behavior: 'smooth'})}>Back to Top</button>
 					<Link to="/grow-manager/">Next <i class="right"></i></Link>
-				</div>							
-			</div>			
+				</div>
+			</div>
 		</footer>
-		
+
 	</Layout>
 )
 

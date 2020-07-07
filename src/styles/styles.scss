@@ -3,7 +3,11 @@
 
 
 body {
-  color: $text-color;  
+  color: $text-color;
+}
+
+.o-body {
+	padding-top: 90px;
 }
 
 img{
@@ -45,8 +49,6 @@ img{
 }
 
 
-	
-
 .content{
 	display: grid;
 	margin-left: auto;
@@ -57,13 +59,12 @@ img{
 	@media only screen and (max-width: 600px) {
 		&{
 			width: 90%;
-		}		
+		}
 	}
 
 	* > img{
 		vertical-align: middle;
 	}
-
 
 	&-fullwidth{
 		display: grid;
@@ -83,10 +84,18 @@ main{
 	margin-right: auto;
 	// width: 633px;
 	max-width: calc(665px - (2* #{$default-padding}));
-
 }
 
-header{	
+.c-header__wrapper {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background-color: $white;
+}
+
+header{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
@@ -96,16 +105,15 @@ header{
 		align-self: center;
 		margin: 0;
 		grid-gap: 32px;
-	} 
+	}
 
 	img{
 		margin: 0;
 	}
-	
 }
 
-.nav{	
-	text-align: right;	
+.nav{
+	text-align: right;
 
 	a{
 		color: $black;
@@ -123,11 +131,9 @@ header{
 			background: $text-color;
 			left: 0;
 			bottom: -8px;
-
 		}
-	}	
+	}
 }
-
 
 .hero_img img{
 	margin: 0;
@@ -142,10 +148,9 @@ header{
 	@media only screen and (max-width: 600px) {
 		&{
 			padding: $default-padding 0;
-		}		
+		}
 	}
 }
-
 
 article{
 	display: grid;
@@ -156,9 +161,8 @@ article{
 	@media only screen and (max-width: 600px) {
 		&{
 			grid-template-columns: auto;
-		}		
+		}
 	}
-
 
 	h2{
 		margin-top: 0;
@@ -167,7 +171,6 @@ article{
 
 	img{
 		grid-area:1 / col4-start;
-		
 	}
 }
 
@@ -189,12 +192,12 @@ footer{
 	margin-top: 2rem;
 	height: 160px;
 	grid-column: span 6;
-	  padding: 1rem;
-	  display: -webkit-box;
-	  display: flex;
-	  -webkit-box-orient: vertical;
-	  -webkit-box-direction: normal;
-	          flex-direction: column;
+	padding: 1rem;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
 
 	.content{
 		max-width: calc(665px - (2* #{$default-padding}));
@@ -214,6 +217,15 @@ footer{
 		&:first-child{
 			text-align: left;
 		}
-		
+	}
+}
+
+.c-btn {
+	&.back-to-top{
+		background-color: transparent;
+		text-align: left;
+		color: $white;
+		text-decoration: none;
+		border: none;
 	}
 }

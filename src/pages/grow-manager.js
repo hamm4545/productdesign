@@ -15,8 +15,8 @@ const ProjectPage = () => (
 		<div class="content">
 			<div class="text-hero text-center">
 				<h1> Grow@ Mobile App for Managers</h1>
-				
-			</div>  
+
+			</div>
 		</div>
 		<div class="content-fullwidth bg-darkgrey">
 			<div class="content">
@@ -25,8 +25,8 @@ const ProjectPage = () => (
 				</div>
 			</div>
 		</div>
-		
-		<div class="content">	
+
+		<div class="content">
 			<main>
 				<h2>Introduction</h2>
 				<p>Grow@ enables the contract manager workflow faster and efficient.</p>
@@ -34,12 +34,12 @@ const ProjectPage = () => (
 					Commercial cleaning industry turnover is speedy, and many workers come and go as well. Moreover, it is a low margin business, and 80% of the costs of cleaning contractors are labour.  Therefore, anything that makes recruitment and utilisation of work more efficient should lead to significant savings.
 				</p>
 				<p>
-					Creating a well-designed app enables commercial cleaning workflow much more efficient and offers more job opportunities for cleaners, along with making the contract manager work faster and more productive. 
+					Creating a well-designed app enables commercial cleaning workflow much more efficient and offers more job opportunities for cleaners, along with making the contract manager work faster and more productive.
 				</p>
 
 				<h2>Goals</h2>
 				<p>Grow@ desires to give the contract managers access to workers who have already accepted the times, locations and wage rates of the job type they are recruiting for. They can even use the system to access their company’s existing workers who are willing to work additional hours at certain times and in specific locations. As a result, this has the potential to lower staff turnover as workers are given more opportunities to increase their hours. Through the seamless flow of the search enables managers to find the available candidates easier and faster.  </p>
-				
+
 				<h2>Challenges</h2>
 				<ol>
 					<li>Make sure two different apps to interact with each other seamlessly. </li>
@@ -50,10 +50,10 @@ const ProjectPage = () => (
 				</ol>
 				<h2>Approach</h2>
 				<p>As the business will be able to expand to other industries, I added the dropdown to choose other industries for hiring for the future on the search screen.</p>
-				
+
 				<img src={SearchImg} class="bg-lightgrey" alt="test" />
-			
-				
+
+
 				<p>Fundamental search values sit on the landing screen so that enabling a manager to quickly find workers available to work at a specific start time or in a specified time window. The rest of the search fields are in the advanced search as a link. Once it's triggered, open as a full screen modal. It enables the users to set the significant criteria associated with each job type without any distractions.</p>
 				<p>There are steps to go through to hire the right candidate. The app should reflect the interactions between the manager and candidate app so that the manager can see the hiring status at a glance. Therefore, I have created small job boxes with different colours in a job card on my job screen as well as the progress bar on the bottom of the card. It summarises the current work progress for each job. Like the candidate app, icons help the app be more friendly and easy to inform the tasks and main features. </p>
 
@@ -71,11 +71,11 @@ const ProjectPage = () => (
 				<img class="bg-lightgrey" src={PatternLibrary} alt="test" />
 			</main>
 		</div>
-		
+
 		<div class="content-fullwidth short-height">
 			<main>
 				<img src={Composition} alt="test" />
-			</main>			
+			</main>
 		</div>
 		<div class="content">
 			<main>
@@ -90,14 +90,14 @@ const ProjectPage = () => (
 				</p>
 			</main>
 		</div>
-		
+
 		<footer>
-			<div class="content">				
+			<div class="content">
 				<div class="row">
-					<a href="">Back to Top</a>
+					<button className="c-btn back-to-top" onClick={() => window.scrollTo({top: 0,left: 0, behavior: 'smooth'})}>Back to Top</button>
 					<Link to="/tether/">Next <i class="right"></i></Link>
-				</div>							
-			</div>			
+				</div>
+			</div>
 		</footer>
 	</Layout>
 )
