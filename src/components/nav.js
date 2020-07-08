@@ -3,11 +3,11 @@ import { Link } from "gatsby"
 import LogoImg from "../images/logo.svg"
 
 const isWorkPage = ({ location }) => {
-  return location.pathname == '/' ? { className: "selected" } : {}
+  return location.pathname === '/' ? { className: "selected" } : {}
 }
 
 const isAboutPage = ({ location }) => {
-  return location.pathname == '/about/' ? { className: "selected" } : {}
+  return location.pathname === '/about/' ? { className: "selected" } : {}
 }
 
 export default ({ children }) => (

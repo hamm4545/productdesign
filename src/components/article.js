@@ -13,11 +13,10 @@ export default ({ children }, props) => (
 		  	<div>
 		  		<h2>Grow@for workers</h2>
 		  		<p>Lead UX and UI design</p>
-		  	</div>
-		  	
-		  	<Link to="/grow-workers/">
-		  	<CandidatesImg></CandidatesImg>
-		  	
+		  	</div>		  	
+		  
+		  	<Link to="/grow-workers/" className="hover">
+		  	<CandidatesImg></CandidatesImg>		  	
 		  	</Link>
 		    
 		</article>
@@ -27,7 +26,7 @@ export default ({ children }, props) => (
 		  		<p>Lead UX and UI design</p>
 		  	</div>
 		  	
-		  	<Link to="/grow-manager/">
+		  	<Link to="/grow-manager/" className="hover">
 		  	<ManagersImg></ManagersImg>
 		  	</Link>
 		    
@@ -38,7 +37,7 @@ export default ({ children }, props) => (
 		  		<p>Lead UI design</p>
 		  	</div>
 		  	
-		  	<Link to="/tether/">
+		  	<Link to="/tether/" className="hover">
 		  		<TetherImg></TetherImg>
 		  	</Link>
 		    

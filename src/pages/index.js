@@ -8,13 +8,17 @@ const Page = () => (
   <Layout> 
   	<div className="content">
   		<div className="site-title">
-		 	<h1>Hi! I am Heather, a product designer based in New Zealand.</h1>
-		    <p>My passion is to elevate strategy and design to create products that are more user-centric and viable. I love to solve abstract problems into easy and simple solutions through empathy with users perspective.
-</p>
+		 	<h1><b>Hi! I am Heather</b>, a product designer at <b><a href="https://www.experieco.com/" target="_blank">Experieco</a></b> in New Zealand.</h1>
+		    
 	 	</div>
 	   
 	    <Article></Article>
   	</div>
+  	<footer>
+  		<div class="content-fullwidth">
+  			<span>Heather Song © 2020</span>
+  		</div>  
+  	</footer>
  	
   </Layout>
 );

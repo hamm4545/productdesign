@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import Work01 from "../components/work-01"
+
 import HeroImg01 from "../images/project01/grow@candidates-hero.png"
 import Wireframe from "../images/project01/wireframe-candidates.jpg"
 import Availability from "../images/project01/Availability.jpg"
@@ -11,21 +11,21 @@ import Composition from "../images/project01/Composition02-candidates.png"
 
 const ProjectPage = () => (
 	<Layout>
-		<div class="content">
-			<div class="text-hero text-center">
+		<div className="content">
+			<div className="text-hero text-center">
 				<h1> Grow@ mobile app for worker</h1>
 				
 			</div>  
 		</div>
-		<div class="content-fullwidth bg-darkgrey">
-			<div class="content">
-				<div class="hero_img">
+		<div className="content-fullwidth bg-darkgrey">
+			<div className="content">
+				<div className="hero_img">
 					<img src={HeroImg01} alt="test" />
 				</div>
 			</div>
 		</div>
 		
-		<div class="content">	
+		<div className="content">	
 			<main>
 				<h2>Introduction</h2>
 				<p>Grow@ wanted to provide a platform to match desires between cleaners and contract managers to find the job or right candidates in an efficient way.</p>
@@ -58,7 +58,7 @@ const ProjectPage = () => (
 		<main>
 			<h3>Sign up journey:</h3>
 		</main>
-		<div class="content-fullwidth bg-lightgrey">
+		<div className="content-fullwidth bg-lightgrey">
 			<main>
 				<img src={Wireframe} alt="test" />
 			</main>			
@@ -99,7 +99,7 @@ const ProjectPage = () => (
 			</p>
 			<img src={PatternLibrary} alt="test" />
 		</main>
-		<div class="content-fullwidth short-height">
+		<div className="content-fullwidth short-height">
 			<main>
 				<img src={Composition} alt="test" />
 			</main>			

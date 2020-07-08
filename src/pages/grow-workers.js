@@ -14,22 +14,22 @@ import Composition from "../images/project01/Composition02-candidates.png"
 
 const ProjectPage = () => (
 	<Layout>
-		<div class="content">
-			<div class="text-hero text-center ">
+		<div className="content">
+			<div className="text-hero text-center ">
 				<h1> Grow@ Mobile App for Worker</h1>
 
 			</div>
 		</div>
-		<div class="content-fullwidth bg-darkgrey">
-			<div class="content">
-				<div class="hero_img extra-padding-top">
+		<div className="content-fullwidth bg-darkgrey">
+			<div className="content">
+				<div className="hero_img extra-padding-top">
 					<HeroImg></HeroImg>
 
 				</div>
 			</div>
 		</div>
 
-		<div class="content">
+		<div className="content">
 			<main>
 				<h2>Introduction</h2>
 				<p>Grow@ wanted to provide a platform to match desires between cleaners and contract managers to find the job or right candidates in an efficient way.</p>
@@ -63,16 +63,16 @@ const ProjectPage = () => (
 			</main>
 		</div>
 
-		<div class="content-fullwidth bg-lightgrey">
+		<div className="content-fullwidth bg-lightgrey">
 			<main>
 				<img src={Wireframe} alt="test" />
 			</main>
 		</div>
-		<div class="content">
+		<div className="content">
 			<main>
 
 				<h3>Availability:</h3>
-				<img class="bg-lightgrey" src={Availability} alt="test" />
+				<img className="bg-lightgrey" src={Availability} alt="test" />
 				<p>
 					It was the most complicated and critical screen of the app. So, the stack holder has a strong opinion on it. He wanted to place the work rate and scheduler on the same page. As a designer point of view, I thought that it might confuse the users and the screen will be very crowded. Because the mobile screen is insufficient to put a lot of tasks at once, I think it's better to structure one main task at once. He has been in the industry so long and knows the candidates more than me, so I respect him and listened to his opinion.
 				</p>
@@ -101,16 +101,16 @@ const ProjectPage = () => (
 					I think the product needs to look something felt friendly, energising and modern while retaining a welcoming and encouraging tone and manner. I also take advantage of using icons as much as possible. It enables to catch users eyes and helps to deliver the user's tasks in an easy way in the product.
 
 				</p>
-				<img class="bg-lightgrey" src={PatternLibrary} alt="test" />
+				<img className="bg-lightgrey" src={PatternLibrary} alt="test" />
 			</main>
 		</div>
 
-		<div class="content-fullwidth short-height">
+		<div className="content-fullwidth short-height">
 			<main>
 				<img src={Composition} alt="test" />
 			</main>
 		</div>
-		<div class="content">
+		<div className="content">
 			<main>
 				<h2>Results</h2>
 				<p>
@@ -128,10 +128,10 @@ const ProjectPage = () => (
 		</div>
 
 		<footer>
-			<div class="content">
-				<div class="row">
+			<div className="content">
+				<div className="row">				
 					<button className="c-btn back-to-top" onClick={() => window.scrollTo({top: 0,left: 0, behavior: 'smooth'})}>Back to Top</button>
-					<Link to="/grow-manager/">Next <i class="right"></i></Link>
+					
 				</div>
 			</div>
 		</footer>

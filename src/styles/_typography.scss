@@ -1,22 +1,28 @@
 h1{
-	font-size: 2.5rem;
-	font-weight: bold;
+	font-size: 2rem;
+	line-height: 1.5;
+	font-weight: 600;
 }
 
 h2{
-	font-size: 1.4rem;
-	font-weight: bold;
+	font-size: 1.5rem;
+	font-weight: 600;
 	margin-top: 3.5rem;
 }
 
 h3{
 	font-size: 1rem;
-	font-weight: bold;
+	font-weight: 600;
 	margin-top: 2rem;
 }
 
 p{
 	font-weight: 1rem;
+	color: $grey;
+}
+
+b{
+	font-weight: 600;
 }
 
 .text-hero{

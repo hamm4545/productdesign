@@ -11,21 +11,21 @@ import Icons from "../images/project03/icons.jpg"
 
 const ProjectPage = () => (
 	<Layout>
-		<div class="content">
-			<div class="text-hero text-center">
+		<div className="content">
+			<div className="text-hero text-center">
 				<h1> Tether Tenanat App</h1>
 
 			</div>
 		</div>
-		<div class="content-fullwidth bg-lightgrey">
-			<div class="content">
-				<div class="hero_img extra-padding-top">
+		<div className="content-fullwidth bg-lightgrey">
+			<div className="content">
+				<div className="hero_img extra-padding-top">
 					<HeroImg01></HeroImg01>
 				</div>
 			</div>
 		</div>
 
-		<div class="content">
+		<div className="content">
 			<main className="main">
 				<h2>Introduction</h2>
 				<p>Tether is a startup and aims to provide IoT (Internet of things) the solution built specifically for property management companies, and the landlord to monitor and manage the indoor air quality across their property portfolios.</p>
@@ -52,19 +52,19 @@ Moreover, the end-users are a wide range of age range, and most of them might no
 				<p>While I designed the app for each status of air quality, the problem was that lack of content on the first version. Therefore, I come up with these solutions.
 				</p>
 				<h3>1. Colour code</h3>
+				<p>There are eight different air quality statuses. I used different colours for each condition.
+					It helps to explain the overall air quality to end-users. For example, red means very poor, green is good, etc. Each colour sticks users eyes, and it attracts users eyes.
+				</p>
 			</main>
 
 		</div>
 
-
-		<div class="content-fullwidth bg-lightgrey extra-padding-top">
+		<div className="content-fullwidth bg-lightgrey extra-padding-top">
 			<img src={Colours} alt="test" />
 		</div>
-		<div class="content">
+		<div className="content">
 			<main>
-				<p>There are eight different air quality statuses. I used different colours for each condition.
-					It helps to explain the overall air quality to end-users. For example, red means very poor, green is good, etc. Each colour sticks users eyes, and it attracts users eyes.
-				</p>
+				
 				<h3>2. Graph and facial expression Icons</h3>
 				<img src={Icons} alt="test" />
 				<p>I have used a circular graph with the air quality status and facial expression icons to deliver intuitive information. The icon of the facial expression made the app more friendly and easy to recognise the current air quality. The icons of the component of air quality enhance the user's understanding and help them the insight into the metrics.
@@ -79,10 +79,10 @@ Moreover, the end-users are a wide range of age range, and most of them might no
 
 		</div>
 		<footer>
-			<div class="content">
-				<div class="row">
+			<div className="content">
+				<div className="row">
 					<button className="c-btn back-to-top" onClick={() => window.scrollTo({top: 0,left: 0, behavior: 'smooth'})}>Back to Top</button>
-					<Link to="/grow-workers/">Next <i class="right"></i></Link>
+					
 				</div>
 			</div>
 		</footer>

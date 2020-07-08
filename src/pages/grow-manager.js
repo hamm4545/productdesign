@@ -12,21 +12,21 @@ import Composition from "../images/project02/Composition.png"
 
 const ProjectPage = () => (
 	<Layout>
-		<div class="content">
-			<div class="text-hero text-center">
+		<div className="content">
+			<div className="text-hero text-center">
 				<h1> Grow@ Mobile App for Managers</h1>
 
 			</div>
 		</div>
-		<div class="content-fullwidth bg-darkgrey">
-			<div class="content">
-				<div class="hero_img extra-padding-top">
+		<div className="content-fullwidth bg-darkgrey">
+			<div className="content">
+				<div className="hero_img extra-padding-top">
 					<HeroImg></HeroImg>
 				</div>
 			</div>
 		</div>
 
-		<div class="content">
+		<div className="content">
 			<main>
 				<h2>Introduction</h2>
 				<p>Grow@ enables the contract manager workflow faster and efficient.</p>
@@ -51,7 +51,7 @@ const ProjectPage = () => (
 				<h2>Approach</h2>
 				<p>As the business will be able to expand to other industries, I added the dropdown to choose other industries for hiring for the future on the search screen.</p>
 
-				<img src={SearchImg} class="bg-lightgrey" alt="test" />
+				<img src={SearchImg} className="bg-lightgrey" alt="test" />
 
 
 				<p>Fundamental search values sit on the landing screen so that enabling a manager to quickly find workers available to work at a specific start time or in a specified time window. The rest of the search fields are in the advanced search as a link. Once it's triggered, open as a full screen modal. It enables the users to set the significant criteria associated with each job type without any distractions.</p>
@@ -59,25 +59,25 @@ const ProjectPage = () => (
 
 			</main>
 		</div>
-		<div class="content-fullwidth bg-lightgrey extra-padding-top">
+		<div className="content-fullwidth bg-lightgrey extra-padding-top">
 			<img src={Workflow} alt="test" />
 		</div>
-		<div class="content">
+		<div className="content">
 			<main>
 				<h2>Visual Designs</h2>
 				<p>
 					I ensured two apps relevant and consistent look and feel with each other. But, the manager app should look more professional and reliable, so I chose blue for the primary theme colour to look more professional. Through using the same UI design approach like workers' app,  It allows saving significant time to develop the manager app.
 				</p>
-				<img class="bg-lightgrey" src={PatternLibrary} alt="test" />
+				<img className="bg-lightgrey" src={PatternLibrary} alt="test" />
 			</main>
 		</div>
 
-		<div class="content-fullwidth short-height">
+		<div className="content-fullwidth short-height">
 			<main>
 				<img src={Composition} alt="test" />
 			</main>
 		</div>
-		<div class="content">
+		<div className="content">
 			<main>
 				<h2>Results</h2>
 				<p>It has successfully landed, and more commercial cleaning companies join the app.
@@ -92,10 +92,9 @@ const ProjectPage = () => (
 		</div>
 
 		<footer>
-			<div class="content">
-				<div class="row">
+			<div className="content">
+				<div className="row">
 					<button className="c-btn back-to-top" onClick={() => window.scrollTo({top: 0,left: 0, behavior: 'smooth'})}>Back to Top</button>
-					<Link to="/tether/">Next <i class="right"></i></Link>
 				</div>
 			</div>
 		</footer>
