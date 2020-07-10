@@ -7,6 +7,11 @@
 
 module.exports = {
   /* Your site config here */
+   siteMetadata: {
+    title: `About - Heather Song`,
+    description: ``,
+    author: `Heather Song`,
+  },
   plugins: [
 	  	{resolve: 'gatsby-plugin-sass'},
 	  	{
