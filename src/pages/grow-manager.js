@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { Link } from "gatsby"
+
 
 import HeroImg from "../components/img-a-hero02"
 import SearchImg from "../images/project02/CM-Search-dropdown.jpg"
