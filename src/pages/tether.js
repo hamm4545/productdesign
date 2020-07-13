@@ -60,13 +60,13 @@ Moreover, the end-users are a wide range of age range, and most of them might no
 		</div>
 
 		<div className="content-fullwidth bg-lightgrey extra-padding-top">
-			<img src={Colours} alt="test" />
+			<img src={Colours} alt="Colours" />
 		</div>
 		<div className="content">
 			<main>
 				
 				<h3>2. Graph and facial expression Icons</h3>
-				<img src={Icons} alt="test" />
+				<img src={Icons} alt="Example" />
 				<p>The circular graph with the air quality status and facial expression icons deliver more intuitive information. The symbol of the facial expression made the app more friendly and easy to recognise the current air quality. The images of the component of air quality enhance the user's understanding and help them the insight into the metrics.
 				</p>
 			</main>

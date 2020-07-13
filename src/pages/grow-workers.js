@@ -42,7 +42,7 @@ const ProjectPage = () => (
 				<h2>Challenges</h2>
 				<p>The biggest challenge for me was accessibility for the target user. Notably, the majority of people were middle and elderly age who are not tech-savvy. When the user registers the app, using an email account is one of the most common ways to do that. However, the target users don’t have an email account so the mobile number was only available to verify users during the signup journey. It was costly, depending on the number of usages. </p>
 				<p>
-					Also, English is not a user’s second language. The easy and straightforward description was needed.
+					Also, the User’s first language is not English. The easy and straightforward description in English was needed.
 				</p>
 				<p>
 					The app should be expandable for the future because the client wants to add more industries such as catering, security, labour, etc. within the app.
@@ -64,14 +64,14 @@ const ProjectPage = () => (
 
 		<div className="content-fullwidth bg-lightgrey">
 			<main>
-				<img src={Wireframe} alt="test" />
+				<img src={Wireframe} alt="wireframe" />
 			</main>
 		</div>
 		<div className="content">
 			<main>
 
 				<h3>Availability:</h3>
-				<img className="bg-lightgrey" src={Availability} alt="test" />
+				<img className="bg-lightgrey" src={Availability} alt="Availability" />
 				<p>
 					It was the most complicated and critical screen of the app. So, the stack holder has a strong opinion on it. He wanted to place the work rate and scheduler on the same page. As a designer point of view, I thought that it might confuse the users and the screen will be very crowded. Because the mobile screen is insufficient to put a lot of tasks at once, I think it's better to structure one main task at once. He has been in the industry so long and knows the candidates more than me, so I respect him and listened to his opinion.
 				</p>
@@ -100,13 +100,13 @@ const ProjectPage = () => (
 					I think the product needs to look something felt friendly, energising and modern while retaining a welcoming and encouraging tone and manner. I also take advantage of using icons as much as possible. It enables to catch users eyes and helps to deliver the user's tasks in an easy way in the product.
 
 				</p>
-				<img className="bg-lightgrey" src={PatternLibrary} alt="test" />
+				<img className="bg-lightgrey" src={PatternLibrary} alt="Pattern Library" />
 			</main>
 		</div>
 
 		<div className="content-fullwidth short-height">
 			<main>
-				<img src={Composition} alt="test" />
+				<img src={Composition} alt="App screens" />
 			</main>
 		</div>
 		<div className="content">

@@ -11,7 +11,7 @@ export default ({ children }, props) => (
 		
 		<article>
 		  	<div>
-		  		<h2>Grow@for workers</h2>
+		  		<h2>Grow@ for workers</h2>
 		  		<p>Lead UX and UI design</p>
 		  	</div>		  	
 		  

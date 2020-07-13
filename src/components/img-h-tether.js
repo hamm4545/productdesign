@@ -21,7 +21,7 @@ export default () => {
      
       <Img
         fluid={data.file.childImageSharp.fluid}
-        alt="Grow@ manager mobile app"
+        alt="Tether mobile app"
       />
     </div>
   )

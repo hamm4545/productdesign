@@ -60,7 +60,7 @@ const ProjectPage = () => (
 			</main>
 		</div>
 		<div className="content-fullwidth bg-lightgrey extra-padding-top">
-			<img src={Workflow} alt="test" />
+			<img src={Workflow} alt="workflow" />
 		</div>
 		<div className="content">
 			<main>
@@ -68,13 +68,13 @@ const ProjectPage = () => (
 				<p>
 					I ensured two apps relevant and consistent look and feel with each other. But, the manager app should look more professional and reliable, so I chose blue for the primary theme colour to look more professional. Through using the same UI design approach like workers' app,  It allows saving significant time to develop the manager app.
 				</p>
-				<img className="bg-lightgrey" src={PatternLibrary} alt="test" />
+				<img className="bg-lightgrey" src={PatternLibrary} alt="Pattern library" />
 			</main>
 		</div>
 
 		<div className="content-fullwidth short-height">
 			<main>
-				<img src={Composition} alt="test" />
+				<img src={Composition} alt="App screens" />
 			</main>
 		</div>
 		<div className="content">

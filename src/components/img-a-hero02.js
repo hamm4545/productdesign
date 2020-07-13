@@ -21,7 +21,7 @@ export default () => {
      
       <Img
         fluid={data.file.childImageSharp.fluid}
-        alt="Grow@ candidates mobile app"
+        alt="Grow@ managers mobile app"
       />
     </div>
   )
