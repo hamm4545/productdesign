@@ -52,8 +52,8 @@ Moreover, the end-users are a wide range of age range, and most of them might no
 				<p>While I designed the app for each status of air quality, the problem was that lack of content on the first version. Therefore, I come up with these solutions.
 				</p>
 				<h3>1. Colour code</h3>
-				<p>There are eight different air quality statuses. I used different colours for each condition.
-					It helps to explain the overall air quality to end-users. For example, red means very poor, green is good, etc. Each colour sticks users eyes, and it attracts users eyes.
+				<p>There are eight different air quality statuses. Each colour represents different conditions.
+					It helps to explain the overall air quality to end-users with universal colour code. For example, red means very poor, green is good, etc. Each colour attracts users eyes and explains air quality intuitively.
 				</p>
 			</main>
 
@@ -67,7 +67,7 @@ Moreover, the end-users are a wide range of age range, and most of them might no
 				
 				<h3>2. Graph and facial expression Icons</h3>
 				<img src={Icons} alt="test" />
-				<p>I have used a circular graph with the air quality status and facial expression icons to deliver intuitive information. The icon of the facial expression made the app more friendly and easy to recognise the current air quality. The icons of the component of air quality enhance the user's understanding and help them the insight into the metrics.
+				<p>The circular graph with the air quality status and facial expression icons deliver more intuitive information. The symbol of the facial expression made the app more friendly and easy to recognise the current air quality. The images of the component of air quality enhance the user's understanding and help them the insight into the metrics.
 				</p>
 			</main>
 
