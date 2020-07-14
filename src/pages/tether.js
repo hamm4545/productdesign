@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-
+import { Link } from "gatsby"
 
 import HeroImg01 from "../components/img-a-hero03"
 import Colours from "../images/project03/colours.png"
@@ -79,12 +79,12 @@ Moreover, the end-users are a wide range of age range, and most of them might no
 
 		</div>
 		<footer>
-			<div className="content">
-				<div className="row">
-					<button className="c-btn back-to-top" onClick={() => window.scrollTo({top: 0,left: 0, behavior: 'smooth'})}>Back to Top</button>
-					
+			<div className="grid-item-6">				
+				<div className="grid-item">
+					<Link to="/grow-manager/" className="c-btn">← Back</Link>		
 				</div>
-			</div>
+				
+			</div>		
 		</footer>
 	</Layout>
 )

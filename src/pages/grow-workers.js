@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-
+import { Link } from "gatsby"
 
 import HeroImg from "../components/img-a-hero01"
 
@@ -127,12 +127,14 @@ const ProjectPage = () => (
 		</div>
 
 		<footer>
-			<div className="content">
-				<div className="row">				
-					<button className="c-btn back-to-top" onClick={() => window.scrollTo({top: 0,left: 0, behavior: 'smooth'})}>Back to Top</button>
-					
+			<div className="grid-item-6">				
+				<div className="grid-item">
+					<Link to="/" className="c-btn">← Back</Link>		
 				</div>
-			</div>
+				<div className="grid-item align-right">
+					<Link to="/grow-manager/" className="c-btn">Next →</Link>
+				</div>
+			</div>		
 		</footer>
 
 	</Layout>

@@ -12,7 +12,7 @@ const Page = () => (
     
   	<div className="content">
   		<div className="site-title">
-		 	<h1><b>Hi! I am Heather</b>, a product designer at <b><Link to="https://www.experieco.com/">Experieco</Link></b> in New Zealand.</h1>
+		 	<h1><b>Hi! I am Heather</b>, a product designer at <b><Link to="https://www.experieco.com/" target="_blank">Experieco</Link></b> in New Zealand.</h1>
 		    
 	 	</div>
 	   

@@ -10,7 +10,7 @@ export default () => {
           # Specify a fluid image and fragment
           # The default maxWidth is 800 pixels
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }

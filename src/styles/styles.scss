@@ -17,6 +17,7 @@ img{
 .bg-darkgrey{
 	background: $dark-grey;
 	margin-bottom: 2rem;
+	overflow: hidden;
 }
 
 .bg-lightgrey{
@@ -245,7 +246,7 @@ article{
 			position: absolute;
 			width: 32px;
 			height: 1px;
-			background: $light-grey;
+			background: $mid-grey;
 			left: 0;
 			bottom: -1rem;
 		}
@@ -267,16 +268,8 @@ article{
 
 }
 
-i {
-  border: solid #ffffff;
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 4px;
-}
-
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
+.align-right{
+	justify-self: end;
 }
 
 
@@ -293,6 +286,10 @@ footer{
 	.content{
 		max-width: calc(665px - (2* #{$default-padding}));
 
+		&:first-child{
+			text-align: left;
+		}
+
 		&-fullwidth{
 			max-width: calc(960px - (2* #{$default-padding}));
 		}
@@ -306,9 +303,10 @@ footer{
 
 	span{
 		width: 100%;
-		color: $light-grey;
+		color: $mid-grey;
+		opacity: 0.8;
 		text-align: right;
-		border-top: 1px solid $light-grey;
+		border-top: 1px solid $mid-grey;
 		font-size: 0.9rem;
 		padding-top: 1rem;
 
@@ -319,18 +317,27 @@ footer{
 		}
 	}
 
+	.grid-item-6{
+
+		@media only screen and (max-width: 600px) {
+			&{
+			
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+	}
+
 }
 
 .c-btn {
-	&.back-to-top{
-		padding: 2rem;
-		border: 1px solid $grey;
-		background-color: transparent;
-		text-align: center;
-		color: $text-color;
-		text-decoration: none;
-		cursor: pointer;
-	}
+	background: #ffffff;
+	border: 1px solid $dark-grey;
+	padding: 1rem 2rem;
+	text-decoration: none;
+	cursor: pointer;
+	color: $text-color;
+	font-size: 0.8rem;
+
 }
 
 .img-circle{
