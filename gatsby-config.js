@@ -46,7 +46,7 @@ module.exports = {
 	        debug: false, 
 	        googleAnalytics: { 
 	            // The property ID; the tracking code won't be generated without it.
-	            trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID',
+	            trackingId: 'UA-42288427-1',
 	            // Defines it google analytics should be started with out the cookie consent
 	            autoStart: true, // <--- default
 	            // Setting this parameter is optional
@@ -64,7 +64,7 @@ module.exports = {
 	          controlCookieName: 'gdpr-analytics-enabled' // <--- default
 	        },
 	        // Defines the environments where the tracking should be available  - default is ["production"]
-	        environments: ['production', 'development']
+	        environments: ['production']
 	      },
 	    },
   	]
