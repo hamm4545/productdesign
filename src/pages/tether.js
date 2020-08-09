@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
+import "../styles/styles.scss"
 
 import HeroImg01 from "../components/img-a-hero03"
 import Colours from "../images/project03/colours.png"

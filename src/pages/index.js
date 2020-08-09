@@ -13,6 +13,8 @@ const Page = () => (
   	<div className="content">
   		<div className="site-title">
 		 	<h1><b>Hi! I am Heather</b>, a product designer at <b><Link to="https://www.experieco.com/" target="_blank">Experieco</Link></b> in New Zealand.</h1>
+      <p>I enjoy creating empathic solutions for solving problems to simple, beautiful and intuitive design as well as providing optimised design for development.
+</p>
 		    
 	 	</div>
 	   
