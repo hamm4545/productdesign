@@ -49,7 +49,7 @@ const ProjectPage = () => (
 					The app should be expandable for the future because the client wants to add more industries such as catering, security, labour, etc. within the app.
 				</p>
 				<p>
-					Due to the target user's background,  understanding, and identifying between the client and end user’s context and needs was a key to design this app.
+					Due to the target user's background, understanding and identifying between the client and end user’s context and needs was a key to design this app.
 				</p>
 				<h2>Approach</h2>
 				<p>
